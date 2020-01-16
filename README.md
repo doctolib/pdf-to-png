@@ -14,6 +14,8 @@ Take a [Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob) as its uniq
 
 Most of the time, the entry will be a very specific type of Blob, the [File](https://developer.mozilla.org/en-US/docs/Web/API/File).
 
+See [here](https://github.com/doctolib-eric/pdf-to-png-demo/blob/master/src/App.js) for a simple and self-contained implementation example (in a React context).
+
 ## Caveats
 
 Will only work within the context of a webpack-based project for now due to the hardcoded dependency to the webpack-configured version of PDF.js

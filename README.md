@@ -26,4 +26,4 @@ Will only work within the context of a webpack-based project for now due to the 
 yarn prepublish
 ```
 
-Inspired by ([this comment](https://stackoverflow.com/questions/29738381/how-to-publish-a-module-written-in-es6-to-npm/33976278#33976278))
+Process inspired by [this comment](https://stackoverflow.com/questions/29738381/how-to-publish-a-module-written-in-es6-to-npm/33976278#33976278).

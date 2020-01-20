@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "dependencies": {
-    "pdfjs-dist": "^2.2.228"
+    "pdfjs-dist": "^2.0.0"
   },
   "main": "lib/index.js",
   "scripts": {

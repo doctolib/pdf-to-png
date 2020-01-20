@@ -26,6 +26,9 @@ Will only work within the context of a webpack-based project for now due to the 
 
 ```js
 yarn prepublish
+git add lib/ && git commit -m "<version>"
+git tag <version>
+git push origin <version>
 ```
 
 Process inspired by [this comment](https://stackoverflow.com/questions/29738381/how-to-publish-a-module-written-in-es6-to-npm/33976278#33976278).

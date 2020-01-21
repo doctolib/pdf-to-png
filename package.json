@@ -1,5 +1,5 @@
 {
-  "name": "pdf-to-png",
+  "name": "@doctolib/pdf-to-png",
   "version": "0.1.0",
   "license": "MIT",
   "dependencies": {
@@ -10,9 +10,7 @@
     "prepublish": "babel src --out-dir lib"
   },
   "babel": {
-    "presets": [
-      "es2015"
-    ]
+    "presets": ["es2015"]
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

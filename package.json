@@ -1,6 +1,7 @@
 {
   "name": "@doctolib/pdf-to-png",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "Browser-side PDF to PNG conversion",
   "license": "MIT",
   "dependencies": {
     "pdfjs-dist": "^2.0.0"

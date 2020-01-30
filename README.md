@@ -46,6 +46,7 @@ Implicit dependency to Webpack at the moment, due to the way workers are handled
 ```js
 yarn prepublish
 git add lib/ && git commit -m "<version>"
+git push origin master
 git tag <version>
 git push origin <version>
 ```

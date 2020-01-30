@@ -1,4 +1,4 @@
-import pdfjs from "pdfjs-dist/webpack";
+import pdfjs from "./pdf";
 
 // Inspired by https://stackoverflow.com/questions/12921052/parsing-pdf-pages-as-javascript-images
 export default async (pdfBlob, options = {}) => {

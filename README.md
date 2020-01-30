@@ -1,5 +1,24 @@
 # Browser-side PDF to PNG conversion
 
+## Setup
+
+Configure the worker by adding this to your Webpack configuration:
+```js
+// webpack.config.js
+{
+  module: {
+    rules: [
+      {
+        test: /pdf\.worker\.js$/,
+        use: { loader: 'worker-loader', options: { inline: true } }
+      }
+    ]
+  }
+}
+```
+
+The `inline` option is not strictly necessary per se but highly advised to play well with [Cross-Origin Policy](https://github.com/webpack-contrib/worker-loader#cross-origin-policy).
+
 ## Usage
 
 ```js
@@ -18,7 +37,7 @@ See [here](https://github.com/doctolib-eric/pdf-to-png-demo/blob/master/src/App.
 
 ## Caveats
 
-Will only work within the context of a webpack-based project for now due to the hardcoded dependency to the webpack-configured version of PDF.js
+Implicit dependency to Webpack at the moment, due to the way workers are handled.
 
 ## Development
 
